@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fire
+  - Cube
+  - Robot
+  - sceneSelect
+  - Zombi
+  - CutZombi
+  - RocketFire
+  - P1 Check
+  - P2 Check
+  - Weapon
+  - DeadZombi
+  - Grabber
+  - DeadZone
+  - NetPlayer
+  - CheckPoint
+  - Goal
+  - TeleportPad
+  - EndPoint
+  - SceneLoaderShooter
+  - SceneLoaderAction
+  - SceneLoaderControll
+  - SceneLoaderMaze
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Restricted
+  - Player
+  - Grabbable
+  - XR Teleport
+  - Post-Processing
+  - Rocket
+  - MapCollider
+  - GrabbableRocket
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

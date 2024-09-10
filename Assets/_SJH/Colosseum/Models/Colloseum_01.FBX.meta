@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 618ee6c1ddc71d0468aebf311761709b
+timeCreated: 1506439958
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: col_mat_bricks_01
+    100002: col_mat_concrete_002
+    100004: col_mat_concrete_003
+    100006: col_mat_concrete_008
+    100008: col_mat_concrete_01
+    100010: col_mat_ground_01
+    100012: col_mat_moss_01
+    100014: col_mat_texture_01
+    100016: col_mat_texture_01_MeshPart0
+    100018: col_mat_texture_01_MeshPart1
+    100020: col_mat_texture_01_MeshPart2
+    100022: //RootNode
+    100024: Object
+    100026: Object002
+    100028: Object004
+    100030: Object005
+    100032: Object006
+    100034: Object008
+    100036: Object010
+    100038: Object012
+    100040: Object013
+    100042: Particle View 01
+    100044: Plane001
+    100046: Plane002
+    100048: Plane003
+    100050: VRayAmbientLight001
+    100052: VRaySun001
+    100054: VRaySun001.Target
+    100056: Sarcofagus_Text
+    100058: Sarcofagus_Title
+    400000: col_mat_bricks_01
+    400002: col_mat_concrete_002
+    400004: col_mat_concrete_003
+    400006: col_mat_concrete_008
+    400008: col_mat_concrete_01
+    400010: col_mat_ground_01
+    400012: col_mat_moss_01
+    400014: col_mat_texture_01
+    400016: col_mat_texture_01_MeshPart0
+    400018: col_mat_texture_01_MeshPart1
+    400020: col_mat_texture_01_MeshPart2
+    400022: //RootNode
+    400024: Object
+    400026: Object002
+    400028: Object004
+    400030: Object005
+    400032: Object006
+    400034: Object008
+    400036: Object010
+    400038: Object012
+    400040: Object013
+    400042: Particle View 01
+    400044: Plane001
+    400046: Plane002
+    400048: Plane003
+    400050: VRayAmbientLight001
+    400052: VRaySun001
+    400054: VRaySun001.Target
+    400056: Sarcofagus_Text
+    400058: Sarcofagus_Title
+    2300000: col_mat_bricks_01
+    2300002: col_mat_concrete_002
+    2300004: col_mat_concrete_003
+    2300006: col_mat_concrete_008
+    2300008: col_mat_concrete_01
+    2300010: col_mat_ground_01
+    2300012: col_mat_moss_01
+    2300014: col_mat_texture_01_MeshPart0
+    2300016: col_mat_texture_01_MeshPart1
+    2300018: col_mat_texture_01_MeshPart2
+    2300020: Object
+    2300022: Object002
+    2300024: Object004
+    2300026: Object005
+    2300028: Object006
+    2300030: Object008
+    2300032: Object010
+    2300034: Object012
+    2300036: Object013
+    2300038: Plane001
+    2300040: Plane002
+    2300042: Plane003
+    2300044: Sarcofagus_Text
+    2300046: Sarcofagus_Title
+    3300000: col_mat_bricks_01
+    3300002: col_mat_concrete_002
+    3300004: col_mat_concrete_003
+    3300006: col_mat_concrete_008
+    3300008: col_mat_concrete_01
+    3300010: col_mat_ground_01
+    3300012: col_mat_moss_01
+    3300014: col_mat_texture_01_MeshPart0
+    3300016: col_mat_texture_01_MeshPart1
+    3300018: col_mat_texture_01_MeshPart2
+    3300020: Object
+    3300022: Object002
+    3300024: Object004
+    3300026: Object005
+    3300028: Object006
+    3300030: Object008
+    3300032: Object010
+    3300034: Object012
+    3300036: Object013
+    3300038: Plane001
+    3300040: Plane002
+    3300042: Plane003
+    3300044: Sarcofagus_Text
+    3300046: Sarcofagus_Title
+    4300000: col_mat_moss_01
+    4300002: col_mat_bricks_01
+    4300004: col_mat_texture_01_MeshPart0
+    4300006: col_mat_texture_01_MeshPart1
+    4300008: col_mat_texture_01_MeshPart2
+    4300010: col_mat_ground_01
+    4300012: col_mat_concrete_01
+    4300014: col_mat_concrete_002
+    4300016: col_mat_concrete_003
+    4300018: col_mat_concrete_008
+    4300020: Object
+    4300022: Object002
+    4300024: Object004
+    4300026: Object005
+    4300028: Object006
+    4300030: Object008
+    4300032: Plane001
+    4300034: Plane002
+    4300036: Plane003
+    4300038: Object010
+    4300040: Object012
+    4300042: Object013
+    4300044: Sarcofagus_Title
+    4300046: Sarcofagus_Text
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 750
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: col_mat_bricks_01
+        weight: 1
+      - path: col_mat_concrete_01
+        weight: 1
+      - path: col_mat_concrete_002
+        weight: 1
+      - path: col_mat_concrete_003
+        weight: 1
+      - path: col_mat_concrete_008
+        weight: 1
+      - path: col_mat_ground_01
+        weight: 1
+      - path: col_mat_moss_01
+        weight: 1
+      - path: col_mat_texture_01
+        weight: 1
+      - path: col_mat_texture_01/col_mat_texture_01_MeshPart0
+        weight: 1
+      - path: col_mat_texture_01/col_mat_texture_01_MeshPart1
+        weight: 1
+      - path: col_mat_texture_01/col_mat_texture_01_MeshPart2
+        weight: 1
+      - path: Object
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object010
+        weight: 1
+      - path: Object012
+        weight: 1
+      - path: Object013
+        weight: 1
+      - path: Particle View 01
+        weight: 1
+      - path: Plane001
+        weight: 1
+      - path: Plane002
+        weight: 1
+      - path: Plane003
+        weight: 1
+      - path: Sarcofagus_Text
+        weight: 1
+      - path: Sarcofagus_Title
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 50
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.003
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
