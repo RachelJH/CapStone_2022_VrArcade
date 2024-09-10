@@ -1,0 +1,22 @@
+{
+    "name": "VRBuilder.StatesAndData.DemoScene",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c8561f9de838ac04d8feeda695bc572d",
+        "GUID:5bac2de3e0a43884ba7b23da0c8de186",
+        "GUID:d461650a0aeebd648888142c51bded52",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "VR_BUILDER",
+        "VR_BUILDER_XR_INTERACTION"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

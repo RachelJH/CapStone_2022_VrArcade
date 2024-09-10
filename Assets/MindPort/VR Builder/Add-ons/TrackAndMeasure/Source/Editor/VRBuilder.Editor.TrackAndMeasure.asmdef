@@ -1,0 +1,22 @@
+{
+    "name": "VRBuilder.Editor.TrackAndMeasure",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e476a81b6ef7b824686666349a591a9a",
+        "GUID:c8561f9de838ac04d8feeda695bc572d",
+        "GUID:e9838e98e7641b74c81c65a85d252957"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "VR_BUILDER"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

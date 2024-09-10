@@ -1,0 +1,22 @@
+{
+    "name": "VRBuilder.Editor.Animations",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e476a81b6ef7b824686666349a591a9a",
+        "GUID:c8561f9de838ac04d8feeda695bc572d",
+        "GUID:305a024fd7ef57143ad18ce0f4764e27"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "VR_BUILDER"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
