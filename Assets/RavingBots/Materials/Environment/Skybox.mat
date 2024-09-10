@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Skybox
+  m_Shader: {fileID: 104, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BackTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 47e5ca0b957e0564cac29ba23e209d4b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DownTex
+      second:
+        m_Texture: {fileID: 2800000, guid: df870290375c6c74db324ec94b7598fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FrontTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 3eebc9d8860988a41b7fbfafb3236d45, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _LeftTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 291173f3e1376bc43b52f7a28c0dba61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RightTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 0fd4d43f5ad5a324f8195b14b2a81646, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _UpTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 80a61a93264fe29429218ee05d162666, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Exposure
+      second: 1
+    - first:
+        name: _Rotation
+      second: 320
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Tint
+      second: {r: 1, g: 1, b: 1, a: 1}

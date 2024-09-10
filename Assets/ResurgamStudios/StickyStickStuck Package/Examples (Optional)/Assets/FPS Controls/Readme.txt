@@ -1,0 +1,1 @@
+This content uses a altered version of the FPS controller used in the Unity Standard Assets for the demo example scenes, and they cannot be substituted with any other Unity Standard Assets.

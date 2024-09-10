@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &325998629829619389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 325998629829619387}
+  - component: {fileID: 325998629829619386}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &325998629829619387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325998629829619389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.220376, y: -53.84941, z: -57.4482}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &325998629829619386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325998629829619389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ebca4412352e94b8a754643bd54a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shooterEndScore: 10
+  actionEndScore: 150
+  selectSpawn:
+  - {fileID: 1033256323554660934, guid: 6c969146dcac5644c897b0ab973d4178, type: 3}
+  - {fileID: 5690418927398947256, guid: 7fae890c4a6ad7f40a8238a62f09254e, type: 3}
+  mazeSpawn:
+  - {fileID: 133131627028884090, guid: 244e860cd2c42824f8e0ed3dae5ef995, type: 3}
+  - {fileID: 4355109738692198941, guid: 4bad644480a34d84aaa8d8753316f251, type: 3}
+  shooterSpawn:
+  - {fileID: 6252156505484839231, guid: 63b6104d672804d46ac04995334eccc4, type: 3}
+  - {fileID: 2381618563707101251, guid: d4ec7938f989fed40928f2ca8a7ca777, type: 3}
+  actionSpawn:
+  - {fileID: 6637517583794517511, guid: 03ad7a33765fa1b41afbc502bbe23a7e, type: 3}
+  - {fileID: 2965589628152752837, guid: 5d935da731fd25143821d130cba39d00, type: 3}
+  controlSpawn:
+  - {fileID: 8587911947307723212, guid: 6e2c8339d5571aa4c93f89ed698264ab, type: 3}
+  - {fileID: 4468820840844495956, guid: 27ebc5e3b0468a742b6f8d8431259cb4, type: 3}
+  resultSpawn:
+  - {fileID: 1033256323554660934, guid: 6c969146dcac5644c897b0ab973d4178, type: 3}
+  - {fileID: 5690418927398947256, guid: 7fae890c4a6ad7f40a8238a62f09254e, type: 3}
+  lastStageName: 
+  winnerUserName: 
+  endCheck: 0
+  shooter_score: 0000000000000000
+  RemotePlayerObjectName: RemotePlayer

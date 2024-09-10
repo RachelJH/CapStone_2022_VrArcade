@@ -1,0 +1,572 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &123420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 473260}
+  - 135: {fileID: 13536626}
+  m_Layer: 0
+  m_Name: Stick Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 470896}
+  - 54: {fileID: 5471812}
+  - 114: {fileID: 11453736}
+  - 82: {fileID: 8201066}
+  - 114: {fileID: 11446684}
+  m_Layer: 0
+  m_Name: Spear Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &171998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 443168}
+  - 33: {fileID: 3336770}
+  - 23: {fileID: 2305390}
+  - 64: {fileID: 6476736}
+  m_Layer: 0
+  m_Name: Spear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &443168
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 470896}
+  m_RootOrder: 0
+--- !u!4 &470896
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 443168}
+  - {fileID: 473260}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &473260
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.768}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 470896}
+  m_RootOrder: 1
+--- !u!23 &2305390
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171998}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4077304b0f8ae0e4391baf48a12b3274, type: 2}
+  - {fileID: 2100000, guid: d51a6fa92c59e1a4b9b46e3cd9540463, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3336770
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171998}
+  m_Mesh: {fileID: 4300000, guid: e4dd3402691518c478a646c2fe508781, type: 2}
+--- !u!54 &5471812
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145356}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &6476736
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171998}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300000, guid: e4dd3402691518c478a646c2fe508781, type: 2}
+--- !u!82 &8201066
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145356}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11446684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202fe43d658201040881251502e101f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  angleSpeed: 30
+--- !u!114 &11453736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723232ce99e8f6345bd67289fea26ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enable: 1
+  parentType: 1
+  jointType: 1
+  fixedJointProperties:
+    breakForce: 800
+    breakTorque: 300
+    enableCollision: 0
+    enablePreprocessing: 1
+  characterJointProperties:
+    twistLimitSprin:
+      spring: 300
+      damper: 0
+    lowTwistLimit:
+      limit: -1
+      bounciness: 0
+      contactDistance: 0
+    highTwistLimit:
+      limit: 1
+      bounciness: 0
+      contactDistance: 0
+    swing1Limit:
+      limit: 1
+      bounciness: 0
+      contactDistance: 0
+    swing2Limit:
+      limit: 1
+      bounciness: 0
+      contactDistance: 0
+    breakForce: Infinity
+    breakTorque: Infinity
+    enableCollision: 0
+    enablePreprocessing: 1
+    projectionDistance: 0.1
+    projectionAngle: 180
+  springJointProperties:
+    spring: 10
+    damper: 0.2
+    minDistance: 0
+    maxDistance: 0
+    breakForce: Infinity
+    breakTorque: Infinity
+    enableCollision: 0
+    enablePreprocessing: 1
+  hingeJointProperties:
+    useSpring: 0
+    spring:
+      spring: 0
+      damper: 0
+      targetPosition: 0
+    useMotor: 0
+    motor:
+      targetVelocity: 0
+      force: 0
+      freeSpin: 0
+    useLimits: 0
+    limits:
+      min: 0
+      max: 0
+      bounciness: 0
+      contactDistance: 0
+    breakForce: Infinity
+    breakTorque: Infinity
+    enableCollision: 0
+    enablePreprocessing: 1
+  eventProperties:
+    onStickHandler:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8201066}
+          m_MethodName: set_clip
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 863d8509a493ccb4f816fd1c24c35e23,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 8201066}
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onStickBreak:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8201066}
+          m_MethodName: set_clip
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 9d600f6b90c4e0240a625800b1c62bff,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 8201066}
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  stickInTriggerArea: 1
+  stickToNonRigidbody: 1
+  stickOnSticky: 0
+  stickOffset: {x: 0, y: 0, z: 0.2}
+  stickImpactVelocity: 15
+  ignoreColliders: 1
+  stickRecursively: 0
+  maxEffectedItems: 1
+  debugProperties:
+    outputVelocity: 0
+    outputHitVelocity: 0
+  isInfectParent: 1
+  connectedObjectDataLists: []
+--- !u!135 &13536626
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.18
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickBreak.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickHandler.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: angleSpeed
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: characterJointProperties.twistLimitSprin.spring
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_Color[3].rgba
+      value: 2197815295
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_Color[2].rgba
+      value: 2197815295
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_Color[1].rgba
+      value: 2197815295
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_Color[0].rgba
+      value: 16777215
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: stickToNonRigidbody
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: characterJointProperties.breakForce
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: characterJointProperties.breakTorque
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: stickImpactVelocity
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: offset.z
+      value: .349999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: detectCollisions
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ignoreColliders
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: stickRecursively
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: parentType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: stickInTriggerArea
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: maxEffectedItems
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: stickVelocityUpdateTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: jointType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: stickOffset.z
+      value: .200000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: fixedJointProperties.breakForce
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: fixedJointProperties.breakTorque
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickHandler.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8201066}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickHandler.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8201066}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickBreak.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8201066}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickBreak.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8201066}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickHandler.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_clip
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickHandler.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickHandler.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.AudioClip, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickBreak.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_clip
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickBreak.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickBreak.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.AudioClip, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickHandler.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickHandler.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickBreak.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickBreak.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickHandler.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 8300000, guid: 863d8509a493ccb4f816fd1c24c35e23, type: 3}
+    - target: {fileID: 0}
+      propertyPath: eventProperties.onStickBreak.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d600f6b90c4e0240a625800b1c62bff, type: 3}
+    - target: {fileID: 0}
+      propertyPath: debugProperties.outputHitVelocity
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 145356}
+  m_IsPrefabParent: 1
